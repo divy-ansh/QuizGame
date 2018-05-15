@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.divyansh.quizgamedemo.Quetion1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:text="Who is the Prime Minister of India ?"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/q1r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="answer1"
+        android:text="Narendra Modi"
+        android:textSize="23dp"
+        android:layout_gravity="left"
+        android:layout_margin="15dp"/>
+
+    <RadioButton
+        android:id="@+id/q1r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akhilesh Yadav"
+        android:textSize="23dp"
+        android:onClick="answer1"
+        android:layout_gravity="left"
+        android:layout_margin="15dp"/>
+
+    <RadioButton
+        android:id="@+id/q1r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manmohan Singh"
+        android:textSize="23dp"
+        android:onClick="answer1"
+        android:layout_gravity="left"
+        android:layout_margin="15dp"/>
+
+    <RadioButton
+        android:id="@+id/q1r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arwind Kejriwal"
+        android:textSize="23dp"
+        android:onClick="answer1"
+        android:layout_gravity="left"
+        android:layout_margin="15dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next->"
+        android:onClick="jump1"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+</LinearLayout>

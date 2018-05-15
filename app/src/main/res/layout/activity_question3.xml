@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.divyansh.quizgamedemo.Question3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:text="Who developed JAVA ?"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q3r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="answer3"
+            android:text="Dennis Ritchie"
+            android:textSize="23dp"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+        <RadioButton
+            android:id="@+id/q3r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James Goslinn"
+            android:textSize="23dp"
+            android:onClick="answer3"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+        <RadioButton
+            android:id="@+id/q3r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Zukerburge"
+            android:textSize="23dp"
+            android:onClick="answer3"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+        <RadioButton
+            android:id="@+id/q3r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lerry Page"
+            android:textSize="23dp"
+            android:onClick="answer3"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next->"
+        android:onClick="jump3"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

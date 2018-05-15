@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.divyansh.quizgamedemo.Question2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:text="What is the capital of India ?"
+        android:textSize="27dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q2r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="answer2"
+            android:text="Mumbai"
+            android:textSize="23dp"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+        <RadioButton
+            android:id="@+id/q2r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaipur"
+            android:textSize="23dp"
+            android:onClick="answer2"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+        <RadioButton
+            android:id="@+id/q2r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delhi"
+            android:textSize="23dp"
+            android:onClick="answer2"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+        <RadioButton
+            android:id="@+id/q2r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banglore"
+            android:textSize="23dp"
+            android:onClick="answer2"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next->"
+        android:onClick="jump2"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
